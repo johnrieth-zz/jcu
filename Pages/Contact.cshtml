@@ -1,0 +1,72 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"]</h2>
+  
+  
+  <form class="usa-form" asp-controller="Contact" asp-action="Contact" method="post">
+    <fieldset>
+      <legend>Name</legend>
+      <label for="title">Rank <span class="usa-input-label-helper"></span></label>
+      <input  id="Rank" name="Rank" type="text">
+       <label for="last-name">Last name</label>
+      <input id="last-name" name="last-name" type="text" required aria-required="true">
+
+      <label for="first-name">First name</label>
+      <input id="first-name" name="first-name" type="text" required aria-required="true">
+
+      <label for="middle-name">Middle name <span class="usa-input-label-helper"></span></label>
+      <input id="middle-name" name="middle-name" type="text">
+      <fieldset>
+      <div class="usa-input-grid usa-input-grid-small">
+          <label for="service">Service</label>
+          <select id="service" name="service">
+            <option value="Army">Army</option>
+            <option value="Navy"> Navy </option>
+             <option value="Air Force">Air Force </option>
+            <option value="Marines">Marines</option>
+
+
+          </select>
+        </div>
+        </fieldset>
+        <label for="occupation">MOS/AFSC/Rate</label>
+        <input id="occupation" name="occupation" type="text">
+         <label for="email">Email address</label>
+    <input asp-for="Email" id="email" name="email" type="email" autocapitalize="off" autocorrect="off">
+
+     
+
+    </fieldset>
+  </form>
+  <adress>
+Send any written correspondence
+
+to the following address:
+
+ 
+
+Joint Communications Unit
+
+Attention: Recruiting
+
+P.O. Box 70239
+
+Fort Bragg, NC 28307
+
+ 
+
+Contact via Phone:
+
+910-243-0203
+
+312-383-0203 (DSN)
+
+ 
+
+Contact via email:
+
+jcurecruiting@jdi.socom.mil
+</adress>
