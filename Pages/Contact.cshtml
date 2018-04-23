@@ -6,11 +6,10 @@
 <h2>@ViewData["Title"]</h2>
   
   
-  <form class="usa-form" asp-controller="Contact" asp-action="Contact" method="post">
+  <form class="usa-form">
     <fieldset>
-      <legend>Name</legend>
-      <label for="title">Rank <span class="usa-input-label-helper"></span></label>
-      <input  id="Rank" name="Rank" type="text">
+       <label for="rank">Rank</label>
+      <input id="rank" name="rank" type="text" required aria-required="true">
        <label for="last-name">Last name</label>
       <input id="last-name" name="last-name" type="text" required aria-required="true">
 
@@ -19,10 +18,9 @@
 
       <label for="middle-name">Middle name <span class="usa-input-label-helper"></span></label>
       <input id="middle-name" name="middle-name" type="text">
-      <fieldset>
       <div class="usa-input-grid usa-input-grid-small">
           <label for="service">Service</label>
-          <select id="service" name="service">
+          <select id="service" name="service" >
             <option value="Army">Army</option>
             <option value="Navy"> Navy </option>
              <option value="Air Force">Air Force </option>
@@ -31,42 +29,40 @@
 
           </select>
         </div>
-        </fieldset>
+        <p>
         <label for="occupation">MOS/AFSC/Rate</label>
-        <input id="occupation" name="occupation" type="text">
+        <input id="occupation" name="occupation" type="text" required aria-required="true"></p>
          <label for="email">Email address</label>
-    <input asp-for="Email" id="email" name="email" type="email" autocapitalize="off" autocorrect="off">
-
+    <input id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required aria-required="true">
+      <label for="phone">Telephone</label>
+    <input id="telephone" name="telephone" type="text" autocapitalize="off" autocorrect="off">
+      
+  <label for="input-type-textarea">Comments</label>
+  <textarea id="input-type-textarea" name="input-type-textarea"></textarea>
      
-
+        <input type="submit" value="Submit">
     </fieldset>
   </form>
-  <adress>
-Send any written correspondence
 
-to the following address:
+  <section class="jcu-section">
+<p>Send any written correspondence
+
+to the following address:</p>
 
  
 
-Joint Communications Unit
-
+<b>Joint Communications Unit</b>
+<address>
 Attention: Recruiting
-
-P.O. Box 70239
-
-Fort Bragg, NC 28307
-
- 
-
-Contact via Phone:
-
-910-243-0203
-
-312-383-0203 (DSN)
-
- 
-
+P.O. Box 70239<br>
+Fort Bragg, NC 28307<br>
+<br>
+Contact via Phone:<br>
+<a href="tel:910-243-0203">910-243-0203</a>
+<br>
+<a href="tel:312-383-0203">312-383-0203 (DSN)</a><br>
+<br>
 Contact via email:
-
-jcurecruiting@jdi.socom.mil
-</adress>
+<a href="mailto:jcurecruiting@jdi.socom.mil">jcurecruiting@jdi.socom.mil</a>
+</address>
+</section>
