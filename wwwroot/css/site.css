@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 .jcu-section {
     padding-top: .75rem;
@@ -68,3 +68,7 @@ ul.jcu-list {
 	height: 100%;
 }
 
+.usa-link-linkedin {
+    
+    background-image: url("../img/social-icons/svg/linkedin-in.svg");
+}

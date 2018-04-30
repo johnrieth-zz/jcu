@@ -5,7 +5,8 @@
 }
 <h2>@ViewData["Title"]</h2>
   
-  
+  <div class="usa-grid">
+    <div class="usa-width-one-half">
   <form method="post" class="usa-form">
     <fieldset>
        <label for="rank">Rank</label>
@@ -18,7 +19,7 @@
 
       <label for="middle-name">Middle name <span class="usa-input-label-helper"></span></label>
       <input id="middle-name" name="middle-name" type="text">
-      <div class="usa-input-grid usa-input-grid-small">
+      <div class="usa-input-grid usa-input-grid">
           <label for="service">Service</label>
           <select id="service" name="service" >
             <option value="Army">Army</option>
@@ -29,9 +30,9 @@
 
           </select>
         </div>
-        <p>
+        
         <label for="occupation">MOS/AFSC/Rate</label>
-        <input id="occupation" name="occupation" type="text" required aria-required="true"></p>
+        <input id="occupation" name="occupation" type="text" required aria-required="true">
          <label for="email">Email address</label>
     <input id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required aria-required="true">
       <label for="phone">Telephone</label>
@@ -43,7 +44,8 @@
         <input type="submit" value="Submit">
     </fieldset>
   </form>
-
+</div>
+<div class="usa-width-one-half">
   <section class="jcu-section">
 <p>Send any written correspondence
 
@@ -66,3 +68,5 @@ Contact via email:
 <a href="mailto:jcurecruiting@jdi.socom.mil">jcurecruiting@jdi.socom.mil</a>
 </address>
 </section>
+</div>
+</div>

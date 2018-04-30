@@ -90,7 +90,6 @@ If you have questions not addressed here contact the JCU Recruiter at DSN 312-38
 
         <form class="usa-form">
     <fieldset>
-      <legend>Name</legend>
        <label for="rank">Rank</label>
       <input id="rank" name="rank" type="text" required aria-required="true">
        <label for="last-name">Last name</label>
@@ -101,9 +100,9 @@ If you have questions not addressed here contact the JCU Recruiter at DSN 312-38
 
       <label for="middle-name">Middle name <span class="usa-input-label-helper"></span></label>
       <input id="middle-name" name="middle-name" type="text">
-      <div class="usa-input-grid usa-input-grid-small">
+      <div class="usa-input-grid usa-input-grid" required aria-required="true">
           <label for="service">Service</label>
-          <select id="service" name="service" >
+          <select id="service" name="service">
             <option value="Army">Army</option>
             <option value="Navy"> Navy </option>
              <option value="Air Force">Air Force </option>
@@ -118,10 +117,10 @@ If you have questions not addressed here contact the JCU Recruiter at DSN 312-38
          <label for="email">Email address</label>
     <input id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required aria-required="true">
       <label for="phone">Telephone</label>
-    <input id="telephone" name="telephone" type="text" autocapitalize="off" autocorrect="off">
+    <input id="telephone" name="telephone" type="text" autocapitalize="off" autocorrect="off" required aria-required="true">
       
-  <label for="input-type-textarea">Comments</label>
-  <textarea id="input-type-textarea" name="input-type-textarea"></textarea>
+  <label for="input-type-textarea">How did you hear about JCU?</label>
+  <textarea id="input-type-textarea" name="input-type-textarea" required aria-required="true"></textarea>
      
         <input type="submit" value="Submit">
     </fieldset>
