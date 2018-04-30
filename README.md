@@ -1,7 +1,7 @@
 
 ## Joint Communications Unit Website
 
-A prototype of a new [Joint Communications Unit](www.jcu.mil) website.
+A prototype of a new [Joint Communications Unit](http://www.jcu.mil) website.
 
 ### Reason
 
