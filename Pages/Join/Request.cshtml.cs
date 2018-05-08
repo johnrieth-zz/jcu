@@ -1,13 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace jcu.Pages
+namespace jcu.Pages.Join
 {
-    public class JoinModel : PageModel
+    public class RequestModel : PageModel
     {
         public void OnGet()
         {

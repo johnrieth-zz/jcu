@@ -1,11 +1,9 @@
 @page
-@model JoinModel
+@model IndexModel
 @{
     ViewData["Title"] = "Join";
 }
-<h2>@ViewData["Title"]</h2>
 <section class="usa-grid">
-    <div class="usa-width-two-thirds">
 <p>
 The Joint Communications Unit application process consists of three phases and requires dedicated time and effort from an applicant. Since each service has unique PCS requirements, we have built in some flexible parameters. Use this as a guide to ensure all necessary information is submitted.
 </p>
@@ -63,7 +61,7 @@ Ideally, interested candidates should submit their application 12-15 months out 
 </section>
 
 
-<section ="jcu-section">
+<section class ="jcu-section">
 <b>Phase III: Candidate is brought TDY to Ft Bragg, NC (funded by JCU)</b>:
 
 <p>- Physical Fitness Assessment (Branch standards)</p>
@@ -82,90 +80,8 @@ You formally enter the recruiting process when we receive all items identified i
 </p>
 
 <address>
-If you have questions not addressed here contact the JCU Recruiter at DSN 312-383-0203, Commercial 910-243-0203.
+If you have questions not addressed here contact the JCU Recruiter at DSN <a href="tel:312-383-0203">312-383-0203</a>, Commercial <a href="tel:910-243-0203">910-243-0203</a>.
 </address>
-</div>
-
-    <div class="usa-width-one-third">
-
-        <form class="usa-form">
-    <fieldset>
-       <label for="rank">Rank</label>
-      <input id="rank" name="rank" type="text" required aria-required="true">
-       <label for="last-name">Last name</label>
-      <input id="last-name" name="last-name" type="text" required aria-required="true">
-
-      <label for="first-name">First name</label>
-      <input id="first-name" name="first-name" type="text" required aria-required="true">
-
-      <label for="middle-name">Middle name <span class="usa-input-label-helper"></span></label>
-      <input id="middle-name" name="middle-name" type="text">
-      <div class="usa-input-grid usa-input-grid" required aria-required="true">
-          <label for="service">Service</label>
-          <select id="service" name="service">
-            <option value="Army">Army</option>
-            <option value="Navy"> Navy </option>
-             <option value="Air Force">Air Force </option>
-            <option value="Marines">Marines</option>
+</section>
 
 
-          </select>
-        </div>
-        <p>
-        <label for="occupation">MOS/AFSC/Rate</label>
-        <input id="occupation" name="occupation" type="text" required aria-required="true"></p>
-         <label for="email">Email address</label>
-    <input id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required aria-required="true">
-      <label for="phone">Telephone</label>
-    <input id="telephone" name="telephone" type="text" autocapitalize="off" autocorrect="off" required aria-required="true">
-      
-  <label for="input-type-textarea">How did you hear about JCU?</label>
-  <textarea id="input-type-textarea" name="input-type-textarea" required aria-required="true"></textarea>
-     
-        <input type="submit" value="Submit">
-    </fieldset>
-  </form>
-        
-  <table class="usa-table-borderless">
-    <caption>Screening Dates</caption>
-  
-    <tbody>
-      <tr>
-        <th scope="row">16th - 20th April 2018</th>
-     
-      </tr>
-      <tr>
-        <th scope="row">14th - 18th May 2018</th>
-       
-      </tr>
-      <tr>
-        <th scope="row">18th - 22nd June 2018</th>
-     
-      </tr>
-      <tr>
-        <th scope="row">16th - 20th July 2018</th>
-        
-      </tr>
-       <tr>
-        <th scope="row">20th - 24th August 2018</th>
-        
-      </tr>
-       <tr>
-        <th scope="row">17th - 21st September 2018</th>
-        
-      </tr>
-       <tr>
-        <th scope="row">15th - 19th October 2018</th>
-        
-      </tr>
-       <tr>
-        <th scope="row">13th - 16th November 2018</th>
-        
-      </tr>
-       <tr>
-        <th scope="row">10th - 14th December 2018</th>
-        
-      </tr>
-    </tbody>
-  </table>
-        </div>
