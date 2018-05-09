@@ -18,7 +18,7 @@ Stakeholders are likely to be JCU recruiters, Joint Special Operations Command, 
 
 ## System
 
-The current system appears to be using DotNetNuke, a .NET based CMS. This repository uses ASP.NET Core Razor Pages because Razor Pages is a quick way to create a .NET page based website. [Jekyll](https://jekyllrb.com/) could be a good use as the website seems to not need to be updated frequently enough to need a CMS.
+The current system appears to be using DotNetNuke, a .NET based CMS. This repository uses ASP.NET Core Razor Pages 2.1 because Razor Pages is a quick way to create a .NET page based website.  [Jekyll](https://jekyllrb.com/) could be a good use as the website seems to not need to be updated frequently enough to need a CMS.
 
 ## Product vision
 
