@@ -1,0 +1,65 @@
+# This is the configuration for the site navigation.
+
+# This file defines the structure of various named navigational
+# listings, any of which can be used (with some caveats) as the
+# links in your header, footer, and per-page side navigation.
+#
+# For instance, if you have a "primary" navigation list here, you
+# can use that as your header's primary navigation by setting
+# `primary.links` to "primary":
+#
+# primary:
+#   links: primary
+#
+primary:
+  - text: About Us
+    href: /about/
+  - text: Contact Us
+    href: /contact/
+  - text: Join Us
+    links:
+      - text: Demo link A
+        href: /join/phases/
+      - text: Request Application
+        href: /join/request/
+      - text: Screening Dates
+        href: /join/dates/
+  - text: Media
+    href: /media/
+  - text: The Recruiting Team
+    href: /team/
+  - text: Why JCU
+    href: /why/
+
+secondary:
+  - text: Documentation
+    href: /docs/
+  - text: External link
+    href: https://18f.gsa.gov
+    external: true
+
+docs:
+  - text: Sidenav Documentation
+    href: /docs/
+  - text: Sidenav Navigation section
+    links:
+      - text: Demo link A
+        href: /two/a/
+      - text: Demo link B
+        href: /two/b/
+      - text: Demo link C
+        href: /two/c/
+  - text: Sidenav Referenced section
+    links: footer
+  - text: Sidenav External link
+    href: https://18f.gsa.gov
+    external: true
+
+footer:
+  - text: Documentation
+    href: /docs/
+  - text: Demo link
+    href: /demo/
+  - text: External link
+    href: https://18f.gsa.gov
+    external: true
