@@ -31,35 +31,17 @@ primary:
   - text: Why JCU
     href: /why/
 
-secondary:
-  - text: Documentation
-    href: /docs/
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
 
-docs:
-  - text: Sidenav Documentation
-    href: /docs/
-  - text: Sidenav Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-  - text: Sidenav Referenced section
-    links: footer
-  - text: Sidenav External link
-    href: https://18f.gsa.gov
-    external: true
+
+
 
 footer:
-  - text: Documentation
-    href: /docs/
-  - text: Demo link
-    href: /demo/
-  - text: External link
-    href: https://18f.gsa.gov
+  - text: USSOCOM
+    href: http://www.socom.mil/
+    external: true
+  - text: DoD
+    href: https://www.defense.gov/
+    external: true
+  - text: USA.gov
+    href: https://www.usa.gov/
     external: true

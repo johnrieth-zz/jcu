@@ -7,9 +7,9 @@ type: medium
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
 # Comment out to the following section to hide.
-top:
-  text: Return to top
-  href: '#'
+#top:
+#  text: Return to top
+#  href: '#'
 
 # Configuration for "Edit this page" link in the footer.
 # Customize with 'text' property.
@@ -19,7 +19,7 @@ top:
 
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
-# last_updated: true
+last_updated: true
 
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
@@ -31,7 +31,7 @@ heading: Joint Communications Unit
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+  - src: http://www.jcu.mil/Portals/18/JCU%20Seal.png?ver=2017-09-12-213353-180
     alt: 18F
     external: true
 
@@ -41,25 +41,27 @@ contact:
 # Comment out links you don't want to use (RSS is an example)
   social_links:
     - text: Facebook
-      href: https://facebook.com
+      href: https://www.facebook.com/Joint-Communications-Unit-Recruiting-100859006645596/
       external: true
       type: facebook
-    - text: Twitter
-      href: https://twitter.com
-      external: true
-      type: twitter
+  #  - text: Twitter
+  #    href: https://twitter.com
+  #    external: true
+  #    type: twitter
     - text: YouTube
-      href: https://youtube.com
+      href: https://www.youtube.com/channel/UCgLUAs1SivwlBC8M_mlIqNA
       external: true
       type: youtube
   # - text: RSS Feed
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-  heading: Agency contact center
+  heading: Contact
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: (800) CALL-GOVT
-      href: tel:1-800-555-5555
-    - text: info@agency.gov
-      href: mailto:info@agency.gov
+    - text: (910) 243-0203
+      href: tel:1-910-243-0203
+    - text: (312) 383-0203 (DSN) 
+      href: tel:1-312-383-0203
+    - text: jcurecruiting@jdi.socom.mil
+      href: mailto:jcurecruiting@jdi.socom.mil
