@@ -1,4 +1,5 @@
 ---
+title: Media
 layout: page
 permalink: /media/
 ---

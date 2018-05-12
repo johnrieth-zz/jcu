@@ -1,4 +1,5 @@
 ---
+title: Recruiting Team
 layout: page
 permalink: /team/
 ---

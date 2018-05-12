@@ -18,8 +18,8 @@ primary:
     href: /contact/
   - text: Join Us
     links:
-      - text: Demo link A
-        href: /join/phases/
+      - text: Process
+        href: /join/process/
       - text: Request Application
         href: /join/request/
       - text: Screening Dates

@@ -3,13 +3,9 @@ title: Home
 permalink: /
 
 layout: home
-
-
 ---
 
-## Section heading
 
-Everything up to this point [should help people](javascript:void(0);) understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on.
-{: .usa-font-lead }
+The Joint Communications Unit (JCU) is a technical unit of the United States Special Operations Command charged to standardize and ensure interoperability of communication procedures and equipment of the Joint Special Operations Command and its subordinate units. The JCU was activated at Ft. Bragg, NC in 1980, after the failure of Operation Eagle Claw. The JCU has earned the reputation of "DoD's Finest Communicators".
 
-[Call to action](#){: .usa-button .usa-button-big }
+[Join Us](/join/process/){: .usa-button .usa-button-big }

@@ -1,11 +1,9 @@
 ---
+title: Screening Dates
 layout: page
 permalink: /join/dates/
 ---
 
-16th - 20th April 2018
-
-*********************
 
 14th - 18th May 2018
 
